@@ -13,8 +13,8 @@ This repository contains a simple **Shell Script** to monitor running processes,
 ---
 
 ##  Files
-- `process_monitor.sh` → Main shell script.  
-- `process_monitor.log` → Log file where output and warnings are stored.  
+- `process_check.sh` → Main shell script.  
+- `process_$(date +%F_%H-%M-%S).log` → Log file where output and warnings are stored.  
 
 ---
 ##  Usage
@@ -24,4 +24,3 @@ This repository contains a simple **Shell Script** to monitor running processes,
    cd Tech_Assesment_1
    ./process_check.sh
     
-
